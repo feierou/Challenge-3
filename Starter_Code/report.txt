@@ -1,0 +1,14 @@
+Analysis Report
+
+Discoveries:
+	I was trying to analyze the arbitrage profit of crypto on Bitstamp and Coinbase for the period of 2018/1/1 - 2018/3/31. I selected three dates from each month: 1/16 as the early date, 2/24 as the middle date, and 3/26 as the late date. After running an analysis on Pandas, I was able to calculate the sum of the profits on each date. The early profit per trade is $14147.17, the middle profit per trade is $330.07 and the late profit per trade is $0.00. As such, it appears to be more profitable during the early date. 
+    
+
+
+Summary tables and calculations:
+	The graph of both Bitstamp and Coinbase appears to have the same trends in the price as they are highly overlapped. The standard deviation is greater on the early date and less on the later date. The arbitrage spread with the highest standard deviation is on the early date as well. To calculate such, by using the higher-priced exchange minus the lower-priced one. The spread return of each date is to divide the positive arbitrage spread of each date by the lower-priced exchange on the particular date. Finally, to calculate the profit on each trade is to multiply the spread returns that were greater than 1% by the cost purchased. As a result, the earlier date appears to have a higher profit. 
+	
+
+
+Visualizations:
+	The price of both Bistamp and Coinbase reached a peak around 1/7 and then, gradually declined until around 2/7. A small rebound and fluctuation occurred during the ~2/7 - ~3/6 period. After, another gradual decline for the rest of the testing period. The box graph shows a wider outliner on the early date as well which represents greater volatility. Greater volatility indicates a greater return. The largest sum of profit appears to be on the early date with $14146.17 and gradually reduce afterward. 
